@@ -37,10 +37,7 @@ class TasksController extends Controller
         return view('tasks.create', [
             'task' => $task,
         ]);
-<<<<<<< HEAD
 
-=======
->>>>>>> 0e14ab741139ac1e6af7ecaecf2c3c1f416ddec4
     }
 
     /**
@@ -61,13 +58,9 @@ class TasksController extends Controller
         // $task->status = $request->status;   
         $task->content = $request->content;
         $task->save();
-<<<<<<< HEAD
-        
-        // トップページへリダイレクトさせる
+
+            // トップページへリダイレクトさせる
         return redirect('/');
-    
-=======
->>>>>>> 0e14ab741139ac1e6af7ecaecf2c3c1f416ddec4
     }
 
     /**
