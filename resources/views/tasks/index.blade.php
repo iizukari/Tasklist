@@ -8,7 +8,8 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>メッセージ</th>
+                    <th>ステータス</th>
+                    <th>タスク内容</th>
                 </tr>
             </thead>
             <tbody>
